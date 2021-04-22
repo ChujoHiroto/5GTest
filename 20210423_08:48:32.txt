@@ -1,0 +1,120 @@
+==================== Tokyo EC2
+Network Test Result for 46.51.228.162
+Fri Apr 23 08:48:32 JST 2021
+
+External IP : 
+Network Type : 5G ECC off wifi
+ICMP Test :
+PING 46.51.228.162 (46.51.228.162) 56(84) bytes of data.
+64 bytes from 46.51.228.162: icmp_seq=1 ttl=229 time=53.6 ms
+64 bytes from 46.51.228.162: icmp_seq=2 ttl=229 time=160 ms
+64 bytes from 46.51.228.162: icmp_seq=3 ttl=229 time=36.5 ms
+64 bytes from 46.51.228.162: icmp_seq=4 ttl=229 time=28.9 ms
+64 bytes from 46.51.228.162: icmp_seq=5 ttl=229 time=34.3 ms
+64 bytes from 46.51.228.162: icmp_seq=6 ttl=229 time=49.3 ms
+64 bytes from 46.51.228.162: icmp_seq=7 ttl=229 time=42.3 ms
+64 bytes from 46.51.228.162: icmp_seq=8 ttl=229 time=513 ms
+64 bytes from 46.51.228.162: icmp_seq=9 ttl=229 time=310 ms
+64 bytes from 46.51.228.162: icmp_seq=10 ttl=229 time=100 ms
+
+--- 46.51.228.162 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1823ms
+rtt min/avg/max/mdev = 28.961/133.148/513.792/151.595 ms, pipe 3
+=========================
+Traceroute :
+traceroute to 46.51.228.162 (46.51.228.162), 25 hops max, 60 byte packets
+ 1  172.24.240.1  0.376 ms  0.305 ms  0.335 ms
+ 2  192.168.128.1  7.819 ms  2.742 ms  7.844 ms
+ 3  172.25.197.122  42.132 ms  24.197 ms  29.354 ms
+ 4  172.25.195.1  42.096 ms !X  42.085 ms !X  42.039 ms !X
+=========================
+==================== Osaka EC2
+Network Test Result for 13.208.136.186
+Fri Apr 23 08:48:34 JST 2021
+
+External IP : 
+Network Type : 
+ICMP Test :
+PING 13.208.136.186 (13.208.136.186) 56(84) bytes of data.
+64 bytes from 13.208.136.186: icmp_seq=1 ttl=236 time=32.3 ms
+64 bytes from 13.208.136.186: icmp_seq=2 ttl=236 time=35.1 ms
+64 bytes from 13.208.136.186: icmp_seq=3 ttl=236 time=24.3 ms
+64 bytes from 13.208.136.186: icmp_seq=4 ttl=236 time=42.7 ms
+64 bytes from 13.208.136.186: icmp_seq=5 ttl=236 time=22.5 ms
+64 bytes from 13.208.136.186: icmp_seq=6 ttl=236 time=25.7 ms
+64 bytes from 13.208.136.186: icmp_seq=7 ttl=236 time=48.6 ms
+64 bytes from 13.208.136.186: icmp_seq=8 ttl=236 time=24.1 ms
+64 bytes from 13.208.136.186: icmp_seq=9 ttl=236 time=41.6 ms
+64 bytes from 13.208.136.186: icmp_seq=10 ttl=236 time=27.5 ms
+
+--- 13.208.136.186 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1810ms
+rtt min/avg/max/mdev = 22.553/32.480/48.609/8.727 ms
+=========================
+Traceroute :
+traceroute to 13.208.136.186 (13.208.136.186), 25 hops max, 60 byte packets
+ 1  172.24.240.1  0.286 ms  0.234 ms  0.249 ms
+ 2  192.168.128.1  4.805 ms  4.852 ms  7.728 ms
+ 3  172.25.197.122  140.027 ms  138.996 ms  139.059 ms
+ 4  172.25.195.1  133.965 ms  138.997 ms  139.040 ms !X
+=========================
+==================== WL Tokyo
+Network Test Result for 106.161.66.113
+Fri Apr 23 08:48:36 JST 2021
+
+External IP : 
+Network Type : 
+ICMP Test :
+PING 106.161.66.113 (106.161.66.113) 56(84) bytes of data.
+64 bytes from 106.161.66.113: icmp_seq=1 ttl=239 time=29.0 ms
+64 bytes from 106.161.66.113: icmp_seq=2 ttl=239 time=49.0 ms
+64 bytes from 106.161.66.113: icmp_seq=3 ttl=239 time=33.3 ms
+64 bytes from 106.161.66.113: icmp_seq=4 ttl=239 time=46.1 ms
+64 bytes from 106.161.66.113: icmp_seq=5 ttl=239 time=57.9 ms
+64 bytes from 106.161.66.113: icmp_seq=6 ttl=239 time=31.1 ms
+64 bytes from 106.161.66.113: icmp_seq=7 ttl=239 time=30.3 ms
+64 bytes from 106.161.66.113: icmp_seq=8 ttl=239 time=47.2 ms
+64 bytes from 106.161.66.113: icmp_seq=9 ttl=239 time=61.4 ms
+64 bytes from 106.161.66.113: icmp_seq=10 ttl=239 time=45.0 ms
+
+--- 106.161.66.113 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 29.064/43.077/61.474/11.058 ms
+=========================
+Traceroute :
+traceroute to 106.161.66.113 (106.161.66.113), 25 hops max, 60 byte packets
+ 1  172.24.240.1  0.475 ms  0.449 ms  0.411 ms
+ 2  192.168.128.1  7.039 ms  6.197 ms  7.035 ms
+ 3  172.25.197.122  73.789 ms  73.765 ms  73.776 ms
+ 4  172.25.195.1  55.226 ms  67.568 ms  67.605 ms !X
+=========================
+==================== WL Osaka
+Network Test Result for 106.161.81.68
+Fri Apr 23 08:48:38 JST 2021
+
+External IP : 
+Network Type : 
+ICMP Test :
+PING 106.161.81.68 (106.161.81.68) 56(84) bytes of data.
+64 bytes from 106.161.81.68: icmp_seq=1 ttl=244 time=38.0 ms
+64 bytes from 106.161.81.68: icmp_seq=2 ttl=244 time=49.6 ms
+64 bytes from 106.161.81.68: icmp_seq=3 ttl=244 time=25.4 ms
+64 bytes from 106.161.81.68: icmp_seq=4 ttl=244 time=23.1 ms
+64 bytes from 106.161.81.68: icmp_seq=5 ttl=244 time=125 ms
+64 bytes from 106.161.81.68: icmp_seq=6 ttl=244 time=22.3 ms
+64 bytes from 106.161.81.68: icmp_seq=7 ttl=244 time=56.8 ms
+64 bytes from 106.161.81.68: icmp_seq=8 ttl=244 time=24.2 ms
+64 bytes from 106.161.81.68: icmp_seq=9 ttl=244 time=48.1 ms
+64 bytes from 106.161.81.68: icmp_seq=10 ttl=244 time=98.8 ms
+
+--- 106.161.81.68 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1809ms
+rtt min/avg/max/mdev = 22.336/51.213/125.349/33.163 ms
+=========================
+Traceroute :
+traceroute to 106.161.81.68 (106.161.81.68), 25 hops max, 60 byte packets
+ 1  172.24.240.1  0.551 ms  0.556 ms  0.552 ms
+ 2  192.168.128.1  4.245 ms *  3.102 ms
+ 3  172.25.197.122  137.349 ms  137.479 ms  137.454 ms
+ 4  172.25.195.1  137.474 ms !X  137.444 ms !X  137.444 ms !X
+=========================
