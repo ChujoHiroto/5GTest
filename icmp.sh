@@ -5,7 +5,7 @@ echo $2
 echo "External IP : "
 echo "Network Type : "$3
 echo "ICMP Test :"
-ping $1 -c 10
+ping $1 -c 10 -i 0.2
 echo "========================="
 echo Traceroute :
 traceroute -m 25 -n $1
