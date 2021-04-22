@@ -3,7 +3,7 @@ Network Test Result for 46.51.228.162
 Fri Apr 23 08:43:44 JST 2021
 
 External IP : 
-Network Type : 5G ECC
+Network Type : 5G ECC DFS
 ICMP Test :
 PING 46.51.228.162 (46.51.228.162) 56(84) bytes of data.
 64 bytes from 46.51.228.162: icmp_seq=1 ttl=229 time=29.8 ms
