@@ -1,0 +1,50 @@
+Network Test Result for 46.51.228.162
+2021|04|24 01:13:07
+au5G MUFJ前
+External IP : 106.128.113.225
+Network Type : 4G
+ICMP Test : 
+PING 46.51.228.162 (46.51.228.162) 56(84) bytes of data.
+64 bytes from 46.51.228.162: icmp_seq=1 ttl=230 time=37.5 ms
+64 bytes from 46.51.228.162: icmp_seq=2 ttl=230 time=43.7 ms
+64 bytes from 46.51.228.162: icmp_seq=3 ttl=230 time=37.3 ms
+64 bytes from 46.51.228.162: icmp_seq=4 ttl=230 time=124 ms
+64 bytes from 46.51.228.162: icmp_seq=5 ttl=230 time=28.2 ms
+64 bytes from 46.51.228.162: icmp_seq=6 ttl=230 time=37.0 ms
+64 bytes from 46.51.228.162: icmp_seq=7 ttl=230 time=40.2 ms
+64 bytes from 46.51.228.162: icmp_seq=8 ttl=230 time=38.8 ms
+64 bytes from 46.51.228.162: icmp_seq=9 ttl=230 time=36.8 ms
+64 bytes from 46.51.228.162: icmp_seq=10 ttl=230 time=36.7 ms
+
+--- 46.51.228.162 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 2151ms
+rtt min|avg|max|mdev = 28.244|46.081|124.112|26.269 ms
+=========================
+
+Traceroute : 
+1.   *  
+2. 10.60.164.121  2ms 
+3. 172.25.160.193  0ms 
+4. 172.25.161.203  0ms 
+5. 27.86.109.166  1ms 
+6. 27.86.109.161  1ms 
+7. 175.129.8.29  1ms 
+8. 27.85.133.105  1ms 
+9. 27.86.120.174  1ms 
+10. 175.129.54.50  1ms 
+11. 15.230.24.248  1ms 
+12. 15.230.25.3  1ms 
+13.   *  
+14. 150.222.248.63  1ms 
+15.   *  
+16. 52.95.31.148  1ms 
+17. 52.95.31.71  1ms 
+18. 52.95.31.189  2ms 
+19. 52.95.31.186  1ms 
+20. 52.95.31.132  1ms 
+21. 52.95.30.208  1ms 
+22.   *  
+23.   *  
+24.   *  
+25.   *  
+

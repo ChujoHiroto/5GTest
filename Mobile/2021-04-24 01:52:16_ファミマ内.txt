@@ -1,0 +1,37 @@
+Network Test Result for 106.161.81.68
+2021|04|24 01:52:16
+ファミマ内
+External IP : 106.128.112.10
+Network Type : 4G
+ICMP Test : 
+PING 106.161.81.68 (106.161.81.68) 56(84) bytes of data.
+64 bytes from 106.161.81.68: icmp_seq=1 ttl=245 time=271 ms
+64 bytes from 106.161.81.68: icmp_seq=2 ttl=245 time=71.8 ms
+64 bytes from 106.161.81.68: icmp_seq=3 ttl=245 time=39.8 ms
+64 bytes from 106.161.81.68: icmp_seq=4 ttl=245 time=49.2 ms
+64 bytes from 106.161.81.68: icmp_seq=5 ttl=245 time=46.7 ms
+64 bytes from 106.161.81.68: icmp_seq=6 ttl=245 time=216 ms
+64 bytes from 106.161.81.68: icmp_seq=7 ttl=245 time=23.4 ms
+64 bytes from 106.161.81.68: icmp_seq=8 ttl=245 time=47.9 ms
+64 bytes from 106.161.81.68: icmp_seq=9 ttl=245 time=50.2 ms
+64 bytes from 106.161.81.68: icmp_seq=10 ttl=245 time=39.8 ms
+
+--- 106.161.81.68 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1814ms
+rtt min|avg|max|mdev = 23.496|85.732|271.862|80.916 ms, pipe 2
+=========================
+
+Traceroute : 
+1.   *  
+2. 10.60.164.121  0ms 
+3. 172.25.160.193  1ms 
+4. 172.25.161.202  0ms 
+5. 27.86.109.165  0ms 
+6. 27.86.109.161  2ms 
+7. 175.135.250.213  1ms 
+8. 175.135.250.171  0ms 
+9.   *  
+10.   *  
+11.  106.161.81.68  41.0 ms 
+=========================
+

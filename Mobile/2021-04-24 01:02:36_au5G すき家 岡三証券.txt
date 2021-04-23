@@ -1,0 +1,42 @@
+Network Test Result for 106.161.66.113
+2021|04|24 01:02:36
+au5G すき家 岡三証券
+External IP : 106.128.113.225
+Network Type : 4G
+ICMP Test : 
+PING 106.161.66.113 (106.161.66.113) 56(84) bytes of data.
+64 bytes from 106.161.66.113: icmp_seq=1 ttl=240 time=39.1 ms
+64 bytes from 106.161.66.113: icmp_seq=2 ttl=240 time=39.2 ms
+64 bytes from 106.161.66.113: icmp_seq=3 ttl=240 time=43.9 ms
+64 bytes from 106.161.66.113: icmp_seq=4 ttl=240 time=34.7 ms
+64 bytes from 106.161.66.113: icmp_seq=5 ttl=240 time=35.8 ms
+64 bytes from 106.161.66.113: icmp_seq=6 ttl=240 time=42.0 ms
+64 bytes from 106.161.66.113: icmp_seq=7 ttl=240 time=47.2 ms
+64 bytes from 106.161.66.113: icmp_seq=8 ttl=240 time=39.1 ms
+64 bytes from 106.161.66.113: icmp_seq=9 ttl=240 time=36.8 ms
+64 bytes from 106.161.66.113: icmp_seq=10 ttl=240 time=35.3 ms
+
+--- 106.161.66.113 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1814ms
+rtt min|avg|max|mdev = 34.786|39.384|47.255|3.825 ms
+=========================
+
+Traceroute : 
+1.   *  
+2. 10.60.164.249  1ms 
+3. 172.25.160.193  3ms 
+4. 172.25.161.202  1ms 
+5. 27.86.109.166  1ms 
+6. 27.86.109.161  1ms 
+7. 175.129.8.29  2ms 
+8. 27.86.46.73  1ms 
+9. 27.90.132.50  2ms 
+10. 27.85.230.74  1ms 
+11. 175.129.8.10  2ms 
+12. 175.135.249.214  1ms 
+13. 175.135.249.171  1ms 
+14.   *  
+15.   *  
+16.  106.161.66.113  55.8 ms 
+=========================
+

@@ -1,0 +1,46 @@
+Network Test Result for 13.208.136.186
+2021|04|24 01:26:27
+zerogate前
+External IP : 106.128.113.225
+Network Type : 4G
+ICMP Test : 
+PING 13.208.136.186 (13.208.136.186) 56(84) bytes of data.
+64 bytes from 13.208.136.186: icmp_seq=1 ttl=237 time=18.7 ms
+64 bytes from 13.208.136.186: icmp_seq=2 ttl=237 time=21.2 ms
+64 bytes from 13.208.136.186: icmp_seq=3 ttl=237 time=18.7 ms
+64 bytes from 13.208.136.186: icmp_seq=4 ttl=237 time=17.7 ms
+64 bytes from 13.208.136.186: icmp_seq=5 ttl=237 time=16.2 ms
+64 bytes from 13.208.136.186: icmp_seq=6 ttl=237 time=13.7 ms
+64 bytes from 13.208.136.186: icmp_seq=7 ttl=237 time=17.5 ms
+64 bytes from 13.208.136.186: icmp_seq=8 ttl=237 time=15.2 ms
+64 bytes from 13.208.136.186: icmp_seq=9 ttl=237 time=23.1 ms
+64 bytes from 13.208.136.186: icmp_seq=10 ttl=237 time=20.6 ms
+
+--- 13.208.136.186 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1817ms
+rtt min|avg|max|mdev = 13.721|18.295|23.100|2.707 ms
+=========================
+
+Traceroute : 
+1.   *  
+2. 10.60.164.249  1ms 
+3. 172.25.160.193  0ms 
+4. 172.25.161.202  1ms 
+5. 27.86.109.173  3ms 
+6. 27.86.109.169  3ms 
+7. 175.129.8.33  1ms 
+8. 27.80.241.57  1ms 
+9. 27.85.134.46  1ms 
+10. 175.129.54.50  1ms 
+11. 15.230.24.146  1ms 
+12. 15.230.24.177  0ms 
+13. 15.230.24.244  0ms 
+14. 15.230.24.237  1ms 
+15. 15.230.25.172  1ms 
+16.   *  
+17.   *  
+18.   *  
+19.   *  
+20.  13.208.136.186  17.8 ms 
+=========================
+
